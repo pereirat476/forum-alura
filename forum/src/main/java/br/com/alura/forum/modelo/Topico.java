@@ -19,7 +19,6 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-
 public class Topico {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
